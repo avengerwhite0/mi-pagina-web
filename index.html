@@ -1,30 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Mi Página Web</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+  <style>
+        /* Estilos generales */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+        
+    }
+    .header-image {
+      width: 300px; /* Cambia este valor al ancho deseado */
+      height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+      border-radius: 50%;
+    }
+
+    h1, h2, h3 {
+      color: #000000;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    /* Estilos de encabezado */
+    header {
+      background-color: #d1c9a5;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Estilos de secciones */
+    section {
+      padding: 20px;
+      background-color: #e2a378;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    }
+
+    /* Estilos de enlaces */
+    a {
+      color: #002aff;
+      text-decoration: none;
+    }
+
+    /* Estilos de pie de página */
+    footer {
+      background-color: #f2f2f2;
+      padding: 10px;
+      text-align: center;
+    }
+
+  </style>
 </head>
 <body>
+  
   <header>
-    <h1>Bienvenido a Mi Página Web</h1>
+    <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1031&q=80" alt="Texto alternativo de la imagen" class="header-image">
+    <h1>Mi Nombre</h1>
   </header>
-
-  <nav>
-    <ul>
-      <li><a href="#">Inicio</a></li>
-      <li><a href="#">Acerca de</a></li>
-      <li><a href="#">Servicios</a></li>
-      <li><a href="#">Contacto</a></li>
-    </ul>
-  </nav>
-
+  
+  
   <section>
-    <h2>Sobre mí</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor nisl vitae urna sagittis dapibus. Morbi tristique est non enim tincidunt, sit amet tincidunt nulla interdum. In sed suscipit risus. Nunc pellentesque neque nec ante hendrerit, a tincidunt turpis semper. Donec ut elit non odio varius gravida id sit amet urna. Etiam condimentum tellus sit amet eleifend eleifend.</p>
+    <h2>Sobre Mí</h2>
+    <p>Aquí puedes escribir una breve biografía sobre ti y tus experiencias. Puedes hablar sobre tu formación, tus habilidades y tus logros relevantes. Destaca lo que te apasiona en tu campo y cómo puedes ayudar a tus clientes o empleadores.</p>
+  </section>
+  
+  <section>
+    <h2>Proyectos Destacados</h2>
+    <ul>
+      <li>
+        <h3>Proyecto 1</h3>
+        <p>Descripción del proyecto 1.</p>
+      </li>
+      <li>
+        <h3>Proyecto 2</h3>
+        <p>Descripción del proyecto 2.</p>
+      </li>
+      <!-- Agrega más proyectos destacados según sea necesario -->
+    </ul>
+  </section>
+  
+  <section>
+    <h2>Habilidades</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <!-- Agrega más habilidades según sea necesario -->
+    </ul>
   </section>
 
+  <section>
+    <h2>Contacto</h2>
+    <ul>
+      <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+      <li><a href="https://www.twitter.com/">Twitter</a></li>
+      <li><a href="https://www.instagram.com/">Instagram</a></li>
+      <!-- Agrega más enlaces a tus redes sociales según sea necesario -->
+    </ul>
+  </section>
+  
   <footer>
-    <p>&copy; 2023 Mi Página Web. Todos los derechos reservados.</p>
+    <p>&copy; 2023 Mi Portafolio. Todos los derechos reservados.</p>
   </footer>
 </body>
 </html>
