@@ -8,14 +8,17 @@
         /* Estilos generales */
     body {
       font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
+      margin: 30px;
+      padding: 40px;
+      text-align: center;
         
     }
     .header-image {
       width: 300px; /* Cambia este valor al ancho deseado */
       height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
       border-radius: 50%;
+      text-align: center;
+      
     }
 
     h1, h2, h3 {
@@ -24,11 +27,17 @@
 
     section {
       margin-bottom: 30px;
+      text-align: center;
     }
+    p {
+      text-align: center;
+    }
+
 
     ul {
       list-style-type: none;
       padding: 0;
+      text-align: center;
     }
 
     /* Estilos de encabezado */
@@ -43,34 +52,47 @@
       padding: 20px;
       background-color: #e2a378;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+      text-align: center;
     }
-
+    p {
+      max-width: fit-content; /* Cambia este valor al ancho mínimo deseado */
+      text-align: center;
+    }
     /* Estilos de enlaces */
     a {
       color: #002aff;
       text-decoration: none;
+      text-align: center;
     }
 
     /* Estilos de pie de página */
     footer {
       background-color: #f2f2f2;
       padding: 10px;
-      text-align: center;
+      
     }
+    .p-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+
 
   </style>
 </head>
 <body>
   
   <header>
-    <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1031&q=80" alt="Texto alternativo de la imagen" class="header-image">
+    <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1031&q=80" alt="Texto alternativo de la imagen" class="header-image" class="center-image">
     <h1>Mi Nombre</h1>
   </header>
   
   
   <section>
     <h2>Sobre Mí</h2>
-    <p>Aquí puedes escribir una breve biografía sobre ti y tus experiencias. Puedes hablar sobre tu formación, tus habilidades y tus logros relevantes. Destaca lo que te apasiona en tu campo y cómo puedes ayudar a tus clientes o empleadores.</p>
+    <p class="center-text">Aquí puedes escribir una breve biografía sobre ti y tus experiencias. Puedes hablar sobre tu formación, tus habilidades y tus logros relevantes. Destaca lo que te apasiona en tu campo y cómo puedes ayudar a tus clientes o empleadores.</p>
+  
   </section>
   
   <section>
@@ -78,11 +100,11 @@
     <ul>
       <li>
         <h3>Proyecto 1</h3>
-        <p>Descripción del proyecto 1.</p>
+        <p1>Descripción del proyecto 1.</p>
       </li>
       <li>
         <h3>Proyecto 2</h3>
-        <p>Descripción del proyecto 2.</p>
+        <p1>Descripción del proyecto 2.</p>
       </li>
       <!-- Agrega más proyectos destacados según sea necesario -->
     </ul>
@@ -109,7 +131,8 @@
   </section>
   
   <footer>
-    <p>&copy; 2023 Mi Portafolio. Todos los derechos reservados.</p>
+    <p1>&copy; 2023 Mi Portafolio. Todos los derechos reservados.</p>
   </footer>
 </body>
 </html>
+
